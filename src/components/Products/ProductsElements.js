@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
-  height: 100vh;
   width: 100%;
   padding: 5rem calc((100vw - 1300px) / 2);
   background: #150f0f;
@@ -39,6 +38,7 @@ export const ProductInfo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
   text-align: center;
 `;
 
